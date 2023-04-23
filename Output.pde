@@ -147,9 +147,7 @@ void displayAdvancedPlan() {
           DHL = DHL - d.weight;
           textY=textY+35;
           d.used = true;
-
           
-          //only works chronologically - maybe a button in the future with else if
         } else if(!InOrderButton.detect()) {
           break;
         }
